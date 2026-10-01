@@ -18,10 +18,10 @@ body {
   padding: 0 20px;
 }
 
-/* Header / Hero com Banner da Lâmpada */
+/* Header / Hero */
 .hero {
   position: relative;
-  background: linear-gradient(rgba(11, 17, 32, 0.82), rgba(11, 17, 32, 0.95)), url('banner.jpg.jfif');
+  background: linear-gradient(rgba(11, 17, 32, 0.85), rgba(11, 17, 32, 0.95)), url('banner.jpg.jfif');
   background-size: cover;
   background-position: center;
   padding: 90px 0 70px;
@@ -44,13 +44,13 @@ body {
 }
 
 .hero .description {
-  max-width: 750px;
+  max-width: 780px;
   margin: 0 auto 25px;
   color: #cbd5e1;
   font-size: 1rem;
 }
 
-/* Botões com Gradiente */
+/* Botões */
 .btn {
   display: inline-block;
   padding: 12px 30px;
@@ -178,7 +178,48 @@ body {
   font-size: 0.95rem;
 }
 
-/* Estilização e Espaçamento Visual dos Detalhes Expansíveis */
+/* Expansíveis Details / Summary */
+details {
+  margin-top: 15px;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 12px 16px;
+  transition: all 0.3s ease;
+}
+
+details[open] {
+  border-color: #ec4899;
+  background-color: #111827;
+}
+
+summary {
+  font-weight: bold;
+  color: #38bdf8;
+  cursor: pointer;
+  font-size: 0.9rem;
+  outline: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: #ec4899;
+  transition: transform 0.2s;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
 .details-content {
   margin-top: 15px;
   font-size: 0.88rem;
@@ -220,7 +261,7 @@ body {
   margin: 0;
 }
 
-/* Estilo dos Links e Ícones de Projetos */
+/* Links de Projetos */
 .project-links {
   margin-top: 18px;
   margin-bottom: 15px;
@@ -278,7 +319,7 @@ body {
   flex-shrink: 0;
 }
 
-/* Caixa de Observação Histórica (Aviso em Vermelho) */
+/* Caixa em Vermelho de Isenção Histórica */
 .disclaimer-box {
   margin-top: 15px;
   background-color: rgba(239, 68, 68, 0.1);
@@ -294,14 +335,14 @@ body {
   margin: 0 !important;
 }
 
-/* Seção Sobre Mim */
+/* Seção Sobre Mim & Linha do Tempo */
 .about-section {
   padding: 60px 0;
   background-color: #0f172a;
 }
 
 .about-content {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   background-color: #1e293b;
   padding: 35px;
