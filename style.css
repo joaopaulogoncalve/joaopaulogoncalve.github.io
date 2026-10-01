@@ -282,6 +282,45 @@ details[open] summary::after {
   margin: 0;
 }
 
+.sub-list {
+  padding-left: 15px;
+  margin-top: 6px;
+  list-style: none;
+}
+
+.sub-list li {
+  margin-bottom: 4px;
+  font-size: 0.82rem;
+  color: #cbd5e1;
+}
+
+/* Mini-Fotos e Badges dos Softwares */
+.software-icons-grid, .tech-icons-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.soft-badge, .tech-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.soft-logo, .mini-app-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
 /* Links de Projetos */
 .project-links {
   margin-top: 18px;
