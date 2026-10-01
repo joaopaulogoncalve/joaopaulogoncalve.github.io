@@ -6,13 +6,13 @@
   <title>João Paulo da Silva Gonçalves | Portfólio Profissional</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Estilo do Botão Expansível dentro do Card */
+    /* Ajuste de transição do expansível */
     details {
       margin-top: 15px;
       background-color: #0f172a;
       border: 1px solid #334155;
       border-radius: 8px;
-      padding: 10px 14px;
+      padding: 12px 16px;
       transition: all 0.3s ease;
     }
     details<open> {
@@ -41,51 +41,6 @@
     }
     details<open> summary::after {
       transform: rotate(180deg);
-    }
-    .details-content {
-      margin-top: 12px;
-      font-size: 0.88rem;
-      color: #cbd5e1;
-      border-top: 1px solid #334155;
-      padding-top: 10px;
-      line-height: 1.5;
-    }
-    .details-content ul {
-      padding-left: 0;
-      list-style: none;
-      margin-top: 8px;
-    }
-    .details-content li {
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* Estilo dos Ícones Padronizados nas Ligações */
-    .icon-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 20px;
-      height: 20px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: bold;
-      flex-shrink: 0;
-    }
-    .icon-store {
-      background-color: #38bdf8;
-      color: #0b1120;
-    }
-    .icon-ml {
-      width: 20px;
-      height: 20px;
-      border-radius: 4px;
-      object-fit: contain;
-      background-color: #fff159;
-      padding: 1px;
-      flex-shrink: 0;
     }
   </style>
 </head>
@@ -137,18 +92,29 @@
           <p>Implantação, estruturação e manutenção técnica de lojas virtuais e canais no Mercado Livre, integrando estratégias comerciais, criação visual e especializações com a Escola Ecom.</p>
           
           <details>
-            <summary>Ver Projetos, Links, Formações & Ecom Solutions</summary>
+            <summary>Ver Projetos, Links & Formações</summary>
             <div class="details-content">
-              <p><strong>Formações, Especializações & Parcerias:</strong></p>
-              <ul>
-                <li><strong>Ecom Solutions (Escola Ecom, Ecomconsult e Ecom Labs):</strong> Formação especializada em e-commerce e atuação direta na implantação 100% da loja virtual da Neobag Store em parceria com o ecossistema Escola Ecom.</li>
-                <li><strong>Gestão em Marketing e Vendas (Fateg):</strong> Estruturação comercial de lojas digitais, campanhas no Mercado Livre Ads, pesquisa estratégica de palavras-chave, copy e SEO para alta conversão de anúncios.</li>
-                <li><strong>Design Gráfico (SENAC):</strong> Criação de imagens profissionais para cadastro de produtos, tratamento fotográfico e padronização visual do catálogo.</li>
-              </ul>
+              
+              <p class="section-subtitle">Formações & Parcerias:</p>
+              
+              <div class="formation-item">
+                <span class="item-title">Ecom Solutions (Escola Ecom, Ecomconsult e Ecom Labs)</span>
+                <p class="item-desc">Formação especializada em e-commerce e atuação direta na implantação 100% da loja virtual da Neobag Store em parceria com o ecossistema Escola Ecom.</p>
+              </div>
+
+              <div class="formation-item">
+                <span class="item-title">Gestão em Marketing e Vendas (Fateg)</span>
+                <p class="item-desc">Estruturação comercial de lojas digitais, campanhas no Mercado Livre Ads, pesquisa estratégica de palavras-chave, copy e SEO para alta conversão de anúncios.</p>
+              </div>
+
+              <div class="formation-item">
+                <span class="item-title">Design Gráfico (SENAC)</span>
+                <p class="item-desc">Criação de imagens profissionais para cadastro de produtos, tratamento fotográfico e padronização visual do catálogo.</p>
+              </div>
 
               <div class="project-links">
-                <p><strong>Canais de Projetos Realizados:</strong></p>
-                <ul>
+                <p class="section-subtitle">Canais de Projetos Realizados:</p>
+                <ul class="project-links-list">
                   <li><span class="icon-badge icon-store">🌐</span> <a href="https://harmoniamusical.com.br/" target="_blank">Harmonia Musical - Site Próprio</a></li>
                   <li><img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.21.22/mercadolibre/favicon.ico" alt="Mercado Livre" class="icon-ml"> <a href="https://www.mercadolivre.com.br/loja/harmonia-musical" target="_blank">Harmonia Musical - Loja Oficial Mercado Livre</a></li>
                   <li><span class="icon-badge icon-store">🛍️</span> <a href="https://loja.neobagstore.com.br/lisas.html" target="_blank">Neobag Store - E-commerce</a></li>
@@ -160,6 +126,7 @@
               <div class="disclaimer-box">
                 <p><strong>Nota Histórica:</strong> Os links acima representam projetos em que atuei diretamente no processo de implantação, estruturação e manutenção durante minha permanência nas empresas. Atualmente, não faço mais parte das equipes de gestão e design dessas marcas, de modo que alterações de layout, catálogo ou produtos posteriores à minha gestão são de responsabilidade dos times atuais.</p>
               </div>
+
             </div>
           </details>
         </div>
