@@ -5,6 +5,59 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>João Paulo da Silva Gonçalves | Portfólio Profissional[/title>
  <link rel="stylesheet" href="style.css">
+ <style>
+    /* Estilo do Botão Expansível dentro do Card */
+    details {
+      margin-top: 15px;
+      background-color: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 10px 14px;
+      transition: all 0.3s ease;
+    }
+    details[open> {
+      border-color: #ec4899;
+      background-color: #111827;
+    }
+    summary {
+      font-weight: bold;
+      color: #38bdf8;
+      cursor: pointer;
+      font-size: 0.9rem;
+      outline: none;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    summary::after {
+      content: '▼';
+      font-size: 0.8rem;
+      color: #ec4899;
+      transition: transform 0.2s;
+    }
+    details[open> summary::after {
+      transform: rotate(180deg);
+    }
+    .details-content {
+      margin-top: 12px;
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      border-top: 1px solid #334155;
+      padding-top: 10px;
+      line-height: 1.5;
+    }
+    .details-content ul {
+      padding-left: 18px;
+      margin-top: 8px;
+    }
+    .details-content li {
+      margin-bottom: 6px;
+    }
+ </style>
 [/head>
 [body>
 
@@ -14,7 +67,7 @@
      <h1>João Paulo da Silva Gonçalves[/h1>
      <p class="subtitle">Gestão de E-commerce, Produção Gráfica & Impressão Industrial[/p>
      <p class="description">
-        Profissional multidisciplinar com sólida atuação na implantação e gestão de canais digitais (Mercado Livre e E-commerce), operação técnica de impressão industrial (UV Single-Pass, DTF e Serigrafia), pré-impressão e estratégias de marketing audiovisual.
+        Profissional multidisciplinar unindo formação acadêmica em Gestão em Marketing & Vendas e Design Gráfico para estruturação, implantação e otimização de e-commerce e marketplaces (Mercado Livre, Ads e SEO).
      </p>
      <a href="#contato" class="btn">Fale Conosco[/a>
    </div>
@@ -35,7 +88,7 @@
        </div>
        <div class="carousel-slide fade">
          <img src="foto3.jpg" alt="Gestão de E-commerce & Marketplaces">
-         <div class="caption">Criação e Gestão de Anúncios para Marketplaces[/div>
+         <div class="caption">Criação, SEO e Gestão de Anúncios no Mercado Livre[/div>
        </div>
      </div>
    </div>
@@ -47,20 +100,49 @@
      <h2>Especialidades & Competências Técnicas[/h2>
       
      <div class="grid">
+        
+        
        <div class="card">
-         <h3>Impressão Industrial & DTF[/h3>
-         <p>Operação e manutenção técnica de impressoras UV Single-Pass e DTF. Calibração de cores e perfis de impressão RIP para brindes e embalagens.[/p>
+         <h3>Gestão de E-commerce & Marketplaces[/h3>
+         <p>Implantação, estruturação e manutenção técnica de lojas virtuais e canais no Mercado Livre, integrando estratégias de vendas e criação visual.[/p>
+          
+         <details>
+           <summary>Ver Projetos, Links & Aplicação Acadêmica[/summary>
+           <div class="details-content">
+             <p>[strong>Como apliquei minhas duas formações:[/strong>[/p>
+             <ul>
+               <li>[strong>Gestão em Marketing e Vendas (Fateg):[/strong> Estruturação comercial de lojas digitais, campanhas no Mercado Livre Ads, pesquisa estratégica de palavras-chave, copy e SEO para alta conversão de anúncios.[/li>
+               <li>[strong>Design Gráfico (SENAC):[/strong> Criação de imagens profissionais para cadastro de produtos, tratamento fotográfico e padronização visual do catálogo.[/li>
+             </ul>
+
+             <div class="project-links">
+               <p>Canais de Projetos Realizados:[/p>
+               <ul>
+                 <li>🔗<a href="https://harmoniamusical.com.br/" target="_blank">Harmonia Musical - Site Próprio[/a>[/li>
+                 <li>🔗<a href="https://www.mercadolivre.com.br/loja/harmonia-musical" target="_blank">Harmonia Musical - Loja Oficial Mercado Livre[/a>[/li>
+                 <li>🔗<a href="https://loja.neobagstore.com.br/lisas.html" target="_blank">Neobag Store - E-commerce[/a>[/li>
+                 <li>🔗<a href="https://www.mercadolivre.com.br/pagina/neobagstoreoficial" target="_blank">Neobag Store - Loja Oficial Mercado Livre[/a>[/li>
+               </ul>
+             </div>
+
+              
+             <div class="disclaimer-box">
+               <p>[strong>Nota Histórica:[/strong> Os links acima representam projetos em que atuei diretamente no processo de implantação, estruturação e manutenção durante minha permanência nas empresas. Atualmente, não faço mais parte das equipes de gestão e design dessas marcas, de modo que alterações de layout, catálogo ou produtos posteriores à minha gestão são de responsabilidade dos times atuais.[/p>
+             </div>
+           </div>
+         </details>
        </div>
 
        <div class="card">
-         <h3>Gestão de E-commerce & Marketplaces[/h3>
-         <p>Implantação e gestão de lojas virtuais e canais no Mercado Livre. Estruturação do catálogo, otimização de vendas e estratégia digital.[/p>
+         <h3>Impressão Industrial & DTF[/h3>
+         <p>Operação e manutenção técnica de impressoras UV Single-Pass e DTF. Calibração de cores e perfis de impressão RIP para brindes, embalagens e estamparia.[/p>
        </div>
 
        <div class="card">
          <h3>Pré-Impressão & Design Gráfico[/h3>
-         <p>Fechamento de arquivos vetoriais, preparação de canais especiais (White/Varnish) em CorelDRAW e Adobe Photoshop para produção.[/p>
+         <p>Fechamento de arquivos vetoriais, preparação de canais especiais (White/Varnish) em CorelDRAW e Photoshop para impressão industrial.[/p>
        </div>
+
      </div>
    </div>
  </section>
@@ -71,10 +153,13 @@
      <h2>Sobre Mim & Trajetória[/h2>
      <div class="about-content">
        <p>
-          Com formação superior em<strong>Gestão em Marketing e Vendas (Faculdade Fateg)[/strong> e especializações técnicas em Design Gráfico (Senac-GO), Produção Audiovisual (OZI) e Gestão Empresarial, atuo unindo visão de negócios e execução técnica de alta precisão.
+          Com formação superior em<strong>Gestão em Marketing e Vendas (Faculdade Fateg)[/strong> e especialização em<strong>Design Gráfico (SENAC-GO)[/strong>, além de Produção Audiovisual (OZI) e Gestão Empresarial, uno visão estratégica comercial a uma execução visual precisa.
        </p>
        <p>
-          Lidero operações gráficas e digitais na<strong>Neobag[/strong>, gerenciando desde a pré-impressão e manutenção de maquinários até a comercialização em e-commerce. Também trago experiência relevante na área pública como Assessor Parlamentar na<strong>ALEGO[/strong>, desenvolvendo estratégias de comunicação e marketing digital.
+          Atuei ativamente na implantação, estruturação e manutenção de lojas virtuais e canais no Mercado Livre para marcas como<strong>Neobag[/strong> e<strong>Harmonia Musical[/strong>, cobrindo desde a inteligência de anúncios (Mercado Livre Ads e SEO) até o design das peças de produto.
+       </p>
+       <p>
+          Paralelamente, lidero a operação técnica de impressão industrial e pré-impressão, trazendo também bagagem em comunicação pública como Assessor Parlamentar na<strong>ALEGO[/strong>.
        </p>
      </div>
    </div>
