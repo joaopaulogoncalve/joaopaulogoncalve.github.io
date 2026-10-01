@@ -142,7 +142,7 @@ body {
   to {opacity: 1}
 }
 
-/* Grid de Especialidades Harmônico (4 Colunas no Topo) */
+/* Grid de Especialidades (4 Quadrados em Cima) */
 .projects {
   padding: 60px 0;
   background-color: #0b1120;
@@ -150,9 +150,21 @@ body {
 
 .grid-top {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+  .grid-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-top {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -171,8 +183,9 @@ body {
   border-color: #ec4899;
 }
 
+/* Cartão Inferior Grandão (Largura Total) */
 .card-wide {
-  margin-top: 10px;
+  width: 100%;
 }
 
 .card h3 {
