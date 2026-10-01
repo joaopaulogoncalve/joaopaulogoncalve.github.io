@@ -1,441 +1,294 @@
-/* Configurações Gerais */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+<DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Paulo da Silva Gonçalves | Portfólio Profissional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  background-color: #0b1120;
-  color: #f1f5f9;
-  line-height: 1.6;
-}
+  
+  <header class="hero">
+    <div class="container">
+      <h1>João Paulo da Silva Gonçalves</h1>
+      <p class="subtitle">Gestão de E-commerce, Produção Gráfica & Impressão Industrial</p>
+      <p class="description">
+        Profissional multidisciplinar unindo produção audiovisual, comunicação pública, gestão comercial de marketplaces, design gráfico para pré-impressão e rigoroso controle técnico em impressão industrial e gestão de cores.
+      </p>
+      <a href="#contato" class="btn">Fale Conosco</a>
+    </div>
+  </header>
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+  
+  <section class="carousel-section">
+    <div class="container">
+      <h2>Galeria de Trabalhos & Equipamentos</h2>
+      <div class="carousel-container">
+        <div class="carousel-slide fade">
+          <img src="foto1.jpg" alt="Impressão UV e Personalização">
+          <div class="caption">Impressão UV & Personalização Industrial de Alta Qualidade</div>
+        </div>
+        <div class="carousel-slide fade">
+          <img src="foto2.jpg" alt="Impressão DTF, Silk e Flexografia">
+          <div class="caption">Estamparia DTF, Serigrafia (Silk) & Flexografia</div>
+        </div>
+        <div class="carousel-slide fade">
+          <img src="foto3.jpg" alt="Gestão de E-commerce & Marketplaces">
+          <div class="caption">Criação, SEO e Gestão de Anúncios no Mercado Livre</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-/* Header / Hero */
-.hero {
-  position: relative;
-  background: linear-gradient(rgba(11, 17, 32, 0.85), rgba(11, 17, 32, 0.95)), url('banner.jpg.jfif');
-  background-size: cover;
-  background-position: center;
-  padding: 90px 0 70px;
-  text-align: center;
-  border-bottom: 2px solid #ec4899;
-}
+  
+  <section class="projects">
+    <div class="container">
+      <h2>Especialidades & Competências Técnicas</h2>
+      
+      
+      <div class="grid-top">
+        
+        
+        <div class="card">
+          <h3>Implantação e Gestão de Marketplaces</h3>
+          <p>Implantação, estruturação e manutenção técnica de lojas virtuais e canais no Mercado Livre, integrando estratégias comerciais, criação visual e especializações com a Escola Ecom.</p>
+          
+          <details>
+            <summary>Ver Projetos, Links & Formações</summary>
+            <div class="details-content">
+              
+              <p class="section-subtitle">Formações & Especializações:</p>
+              
+              <div class="formation-item">
+                <span class="item-title">Gestão em Marketing e Vendas (Fateg)</span>
+                <p class="item-desc">Formação acadêmica voltada ao alinhamento dos departamentos de marketing e comercial para maximizar a lucratividade:</p>
+                <ul class="sub-list">
+                  <li>📊 <strong>Inteligência de Mercado:</strong> Coleta e análise de dados do consumidor para novas oportunidades comercialização.</li>
+                  <li>🤝 <strong>Estratégias de Vendas:</strong> Negociação avançada, estruturação de canais de distribuição e prospecção.</li>
+                  <li>🚀 <strong>Marketing Digital:</strong> Campanhas integradas a tráfego pago, mídias sociais e e-commerce.</li>
+                  <li>📈 <strong>Gestão do Mix de Marketing:</strong> Posicionamento estratégico e gestão de produto e preço.</li>
+                </ul>
+              </div>
 
-.hero h1 {
-  font-size: 2.5rem;
-  color: #ffffff;
-  margin-bottom: 10px;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
-}
+              <div class="formation-item">
+                <span class="item-title">Ecom Solutions (Escola Ecom, Ecomconsult e Ecom Labs)</span>
+                <p class="item-desc">Formação especializada em e-commerce e atuação direta na implantação 100% da loja virtual da Neobag Store em parceria com o ecossistema Escola Ecom, cobrindo anúncios no Mercado Livre, Ads, SEO, copywriting e otimização de conversão.</p>
+              </div>
 
-.hero .subtitle {
-  font-size: 1.25rem;
-  color: #38bdf8;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
+              <div class="project-links">
+                <p class="section-subtitle">Canais de Projetos Realizados:</p>
+                <ul class="project-links-list">
+                  <li><span class="icon-badge icon-store">🌐</span> <a href="https://harmoniamusical.com.br/" target="_blank">Harmonia Musical - Site Próprio</a></li>
+                  <li><img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.21.22/mercadolibre/favicon.ico" alt="Mercado Livre" class="icon-ml"> <a href="https://www.mercadolivre.com.br/loja/harmonia-musical" target="_blank">Harmonia Musical - Loja Oficial Mercado Livre</a></li>
+                  <li><span class="icon-badge icon-store">🛍️</span> <a href="https://loja.neobagstore.com.br/lisas.html" target="_blank">Neobag Store - E-commerce</a></li>
+                  <li><img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.21.22/mercadolibre/favicon.ico" alt="Mercado Livre" class="icon-ml"> <a href="https://www.mercadolivre.com.br/pagina/neobagstoreoficial" target="_blank">Neobag Store - Loja Oficial Mercado Livre</a></li>
+                </ul>
+              </div>
 
-.hero .description {
-  max-width: 780px;
-  margin: 0 auto 25px;
-  color: #cbd5e1;
-  font-size: 1rem;
-}
+              
+              <div class="disclaimer-box">
+                <p><strong>Nota Histórica:</strong> Os links acima representam projetos em que atuei diretamente no processo de implantação, estruturação e manutenção durante minha permanência nas empresas. Atualmente, não faço mais parte das equipes de gestão e design dessas marcas, de modo que alterações de layout, catálogo ou produtos posteriores à minha gestão são de responsabilidade dos times atuais.</p>
+              </div>
 
-/* Botões */
-.btn {
-  display: inline-block;
-  padding: 12px 30px;
-  background: linear-gradient(135deg, #38bdf8, #ec4899);
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 30px;
-  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.4);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
+            </div>
+          </details>
+        </div>
 
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
-}
+        
+        <div class="card">
+          <h3>Videomaker & Produção Audiovisual</h3>
+          <p>Captação de imagem, gravação de conteúdo e produção de vídeo alinhadas à estratégia de marketing e gestão de imagem pública.</p>
+          
+          <details>
+            <summary>Ver Atuação em Vídeo & Mídias</summary>
+            <div class="details-content">
+              
+              <p class="section-subtitle">Experiências Audiovisuais:</p>
+              
+              <div class="formation-item">
+                <span class="item-title">Realiza Cursos (Gravação & Videoaulas)</span>
+                <p class="item-desc">Produção, captação e edição técnica de videoaulas educacionais e conteúdos dinâmicos para mídias digitais.</p>
+              </div>
 
-.btn-secondary {
-  display: inline-block;
-  padding: 10px 24px;
-  background-color: #1e293b;
-  color: #38bdf8;
-  text-decoration: none;
-  font-weight: 600;
-  border: 1px solid #38bdf8;
-  border-radius: 8px;
-  margin: 0 5px;
-  transition: all 0.2s;
-}
+              <div class="formation-item">
+                <span class="item-title">Assembleia Legislativa de Goiás (ALEGO)</span>
+                <p class="item-desc">Atuação como Assessor Parlamentar na captação de imagem e suporte técnico à gestão de imagem pública e comunicação institucional.</p>
+              </div>
 
-.btn-secondary:hover {
-  background-color: #38bdf8;
-  color: #0b1120;
-}
+            </div>
+          </details>
+        </div>
 
-/* Carrossel de Fotos */
-.carousel-section {
-  padding: 50px 0;
-  background-color: #0f172a;
-}
+        
+        <div class="card">
+          <h3>Impressão Industrial, UV, DTF & Flexografia</h3>
+          <p>Domínio de tecnologias de alta definição de impressão (UV, DTF, Serigrafia/Silk e Flexografia), gestão de fidelidade de cor e manutenção técnica especializada.</p>
+          
+          <details>
+            <summary>Ver Imersão China & Tecnologias</summary>
+            <div class="details-content">
+              
+              <p class="section-subtitle">Tecnologias & Processos Industriais:</p>
 
-.carousel-section h2, .projects h2, .about-section h2, footer h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  color: #38bdf8;
-}
+              <div class="tech-icons-row">
+                <div class="tech-pill"><img src="https://cdn-icons-png.flaticon.com/512/2900/2900624.png" class="mini-app-icon" alt="UV"> Impressão UV</div>
+                <div class="tech-pill"><img src="https://cdn-icons-png.flaticon.com/512/3004/3004613.png" class="mini-app-icon" alt="DTF"> Estamparia DTF</div>
+                <div class="tech-pill"><img src="https://cdn-icons-png.flaticon.com/512/3159/3159310.png" class="mini-app-icon" alt="Silk"> Serigrafia (Silk)</div>
+                <div class="tech-pill"><img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" class="mini-app-icon" alt="Flexo"> Flexografia</div>
+              </div>
+              
+              <div class="formation-item">
+                <span class="item-title">Imersão Internacional & Treinamento Técnico na China</span>
+                <p class="item-desc">Treinamento técnico direto com engenheiros e fabricantes fabris na China para calibração, manutenção preventiva/corretiva de impressoras industriais de alta qualidade e pesquisa de tendências em feiras internacionais.</p>
+              </div>
 
-.carousel-container {
-  max-width: 850px;
-  position: relative;
-  margin: auto;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-  border: 1px solid #334155;
-}
+              <div class="formation-item">
+                <span class="item-title">Controle Cromático & Fidelidade de Impressão</span>
+                <p class="item-desc">Gerenciamento e ajuste de perfis de cor nas artes dos clientes, assegurando a máxima precisão e fidelidade no produto impresso final.</p>
+              </div>
 
-.carousel-slide {
-  display: none;
-}
+            </div>
+          </details>
+        </div>
 
-.carousel-slide img {
-  width: 100%;
-  height: 420px;
-  object-fit: cover;
-  display: block;
-}
+        
+        <div class="card">
+          <h3>Pré-Impressão & Design Gráfico</h3>
+          <p>Desenvolvimento de desenhos vetoriais, tratamento fotográfico e diagramação de peças gráficas utilizando a suíte Adobe e CorelDRAW.</p>
+          
+          <details>
+            <summary>Ver Programas & Competências SENAC</summary>
+            <div class="details-content">
+              
+              <p class="section-subtitle">Softwares & Ferramentas Dominadas:</p>
+              
+              <div class="software-icons-grid">
+                <div class="soft-badge"><img src="https://cdn.worldvectorlogo.com/logos/coreldraw-x7.svg" class="soft-logo" alt="CorelDRAW"> CorelDRAW</div>
+                <div class="soft-badge"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" class="soft-logo" alt="Photoshop"> Photoshop</div>
+                <div class="soft-badge"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" class="soft-logo" alt="Illustrator"> Illustrator</div>
+                <div class="soft-badge"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" class="soft-logo" alt="InDesign"> InDesign</div>
+                <div class="soft-badge"><img src="https://cdn.iconscout.com/icon/free/png-256/free-adobe-bridge-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-1-pack-logos-icons-3029709.png" class="soft-logo" alt="Bridge"> Bridge</div>
+              </div>
 
-.caption {
-  color: #f8fafc;
-  font-size: 1rem;
-  padding: 14px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background: rgba(11, 17, 32, 0.9);
-  border-top: 1px solid #ec4899;
-}
+              <p class="section-subtitle" style="margin-top:15px;">Especialização Design Gráfico (SENAC):</p>
+              
+              <div class="formation-item">
+                <span class="item-title">Desenho Vetorial & Diagramação</span>
+                <p class="item-desc">Criação e edição de desenhos vetoriais e diagramação completa de peças gráficas com CorelDRAW e Adobe Illustrator.</p>
+              </div>
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+              <div class="formation-item">
+                <span class="item-title">Edição & Tratamento de Imagens</span>
+                <p class="item-desc">Edição, composição profissional e tratamento de imagens para publicação digital e impressa com o Adobe Photoshop.</p>
+              </div>
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+              <div class="formation-item">
+                <span class="item-title">Diagramação Editorial & Gerenciamento</span>
+                <p class="item-desc">Diagramação de publicações no Adobe InDesign e gerenciamento organizado de arquivos e pastas com o Adobe Bridge.</p>
+              </div>
 
-/* Grid de Especialidades (4 Quadrados em Cima) */
-.projects {
-  padding: 60px 0;
-  background-color: #0b1120;
-}
+            </div>
+          </details>
+        </div>
 
-.grid-top {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-bottom: 25px;
-}
+      </div>
 
-@media (max-width: 992px) {
-  .grid-top {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+      
+      <div class="card card-wide">
+        <div class="wide-header">
+          <div>
+            <h3>Hobbies, Esportes & Técnica de Som</h3>
+            <p>Prática esportiva focada em alta disciplina e resistência (Jiu-Jitsu e Ciclismo), aliada ao entusiasmo técnico pela operação de mesas de som, acústica e alinhamento de áudio.</p>
+          </div>
+        </div>
+        
+        <details>
+          <summary>Ver Vivência Prática & Hobbies</summary>
+          <div class="details-content">
+            
+            <p class="section-subtitle">Hobbies & Estilo de Vida:</p>
+            
+            <div class="tech-icons-row">
+              <div class="tech-pill">🥋 Jiu-Jitsu</div>
+              <div class="tech-pill">🚴 Ciclismo de Estrada</div>
+              <div class="tech-pill">🎛️ Mesas de Som Analógicas/Digitais</div>
+              <div class="tech-pill">🎙️ Microfonagem & Acústica</div>
+            </div>
 
-@media (max-width: 600px) {
-  .grid-top {
-    grid-template-columns: 1fr;
-  }
-}
+            <div class="formation-item">
+              <span class="item-title">Jiu-Jitsu & Ciclismo</span>
+              <p class="item-desc">Prática regular de Jiu-Jitsu e Ciclismo de estrada, desenvolvendo disciplina, resiliência, foco e condicionamento físico de alta intensidade.</p>
+            </div>
 
-.card {
-  background-color: #1e293b;
-  padding: 22px;
-  border-radius: 10px;
-  border: 1px solid #334155;
-  transition: transform 0.2s, border-color 0.2s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+            <div class="formation-item">
+              <span class="item-title">Operação de Mesas de Som & Equalização</span>
+              <p class="item-desc">Operação prática de consoles analógicos e digitais, ajuste de ganho, compressores, equalização de frequências e alinhamento de periféricos.</p>
+            </div>
 
-.card:hover {
-  transform: translateY(-5px);
-  border-color: #ec4899;
-}
+            <div class="formation-item">
+              <span class="item-title">Acústica & Microfonagem</span>
+              <p class="item-desc">Posicionamento técnico de microfones para voz e instrumentos, com percepção apurada para controle de realimentação (microfonia) e acústica de ambientes.</p>
+            </div>
 
-/* Cartão Inferior Grandão (Largura Total) */
-.card-wide {
-  width: 100%;
-}
+          </div>
+        </details>
+      </div>
 
-.card h3 {
-  color: #38bdf8;
-  margin-bottom: 12px;
-  font-size: 1.15rem;
-}
+    </div>
+  </section>
 
-.card p {
-  color: #94a3b8;
-  font-size: 0.92rem;
-}
+  
+  <section class="about-section">
+    <div class="container">
+      <h2>Sobre Mim & Trajetória Profissional</h2>
+      <div class="about-content">
+        <p>
+          Com formação superior em <strong>Gestão em Marketing e Vendas (Faculdade Fateg)</strong>, especialização em <strong>Design Gráfico (SENAC-GO)</strong>, formação em <strong>Produção de Vídeo (OZI Escola de Audiovisual)</strong> e capacitação técnica pela <strong>Escola Ecom (Ecom Solutions)</strong>, uno visão estratégica comercial, inteligência de vendas e execução visual e técnica de alta precisão.
+        </p>
+        <p>
+          Minha trajetória profissional consolida uma atuação multidisciplinar e integrada. Iniciei na <strong>Realiza Cursos</strong> na produção audiovisual para videoaulas e redes sociais, evoluindo para a comunicação pública e gestão de imagem na <strong>Assembleia Legislativa do Estado de Goiás (ALEGO)</strong>. Em seguida, na <strong>Harmonia Musical</strong>, atuei no design de produtos, estruturação de canais digitais e expansão em marketplaces (Mercado Livre). Na <strong>Neobag Store</strong>, liderei a consolidação da operação digital com a implantação 100% da loja virtual e gestão do e-commerce.
+        </p>
+        <p>
+          Conectando o Design Gráfico e o Audiovisual ao "final da fila" da produção gráfica, realizei pela Neobag Store uma <strong>imersão técnica internacional na China</strong> para especialização em manutenção preventiva e corretiva, calibração avançada e gerenciamento de cores de parques gráficos industriais de alta tecnologia (UV, DTF, Serigrafia/Silk e Flexografia).
+        </p>
+        <p>
+          Fora do ambiente corporativo, mantenho a disciplina e o foco por meio do <strong>Jiu-Jitsu</strong> e do <strong>Ciclismo</strong>, além de cultivar o entusiasmo prático pela <strong>técnica de som</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
 
-/* Expansíveis Details / Summary */
-details {
-  margin-top: 15px;
-  background-color: #0f172a;
-  border: 1px solid #334155;
-  border-radius: 8px;
-  padding: 12px 16px;
-  transition: all 0.3s ease;
-}
+  
+  <footer id="contato">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Vamos conversar sobre novos projetos, consultoria ou orçamentos?</p>
+      <div class="links-contato">
+        <a href="https://wa.me/5562992002020" target="_blank" class="btn-secondary">WhatsApp</a>
+        <a href="mailto:paulojao151@gmail.com" class="btn-secondary">E-mail</a>
+      </div>
+    </div>
+  </footer>
 
-details[open] {
-  border-color: #ec4899;
-  background-color: #111827;
-}
+  
+  <script>
+    let slideIndex = 0;
+    showSlides();
 
-summary {
-  font-weight: bold;
-  color: #38bdf8;
-  cursor: pointer;
-  font-size: 0.9rem;
-  outline: none;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+    function showSlides() {
+      let slides = document.getElementsByClassName("carousel-slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides<i>.style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      if (slides.length > 0) {
+        slides<slideIndex-1>.style.display = "block";  
+      }
+      setTimeout(showSlides, 3500);
+    }
+  </script>
 
-summary::-webkit-details-marker {
-  display: none;
-}
-
-summary::after {
-  content: '▼';
-  font-size: 0.8rem;
-  color: #ec4899;
-  transition: transform 0.2s;
-}
-
-details[open] summary::after {
-  transform: rotate(180deg);
-}
-
-.details-content {
-  margin-top: 15px;
-  font-size: 0.88rem;
-  color: #cbd5e1;
-  border-top: 1px solid #334155;
-  padding-top: 15px;
-  line-height: 1.6;
-}
-
-.details-content .section-subtitle {
-  color: #38bdf8;
-  font-size: 0.95rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.formation-item {
-  background-color: rgba(15, 23, 42, 0.6);
-  border-left: 3px solid #38bdf8;
-  padding: 10px 12px;
-  border-radius: 4px;
-  margin-bottom: 12px;
-}
-
-.formation-item .item-title {
-  display: block;
-  color: #f8fafc;
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin-bottom: 4px;
-}
-
-.formation-item .item-desc {
-  color: #94a3b8;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  margin: 0;
-}
-
-.sub-list {
-  padding-left: 15px;
-  margin-top: 6px;
-  list-style: none;
-}
-
-.sub-list li {
-  margin-bottom: 4px;
-  font-size: 0.82rem;
-  color: #cbd5e1;
-}
-
-/* Mini-Fotos e Badges dos Softwares */
-.software-icons-grid, .tech-icons-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 14px;
-}
-
-.soft-badge, .tech-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background-color: #1e293b;
-  border: 1px solid #334155;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 0.78rem;
-  color: #f8fafc;
-  font-weight: 600;
-}
-
-.soft-logo, .mini-app-icon {
-  width: 16px;
-  height: 16px;
-  object-fit: contain;
-}
-
-/* Links de Projetos */
-.project-links {
-  margin-top: 18px;
-  margin-bottom: 15px;
-}
-
-.project-links-list {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-.project-links-list li {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.project-links-list a {
-  color: #38bdf8;
-  text-decoration: none;
-  font-size: 0.88rem;
-  transition: color 0.2s;
-}
-
-.project-links-list a:hover {
-  color: #ec4899;
-  text-decoration: underline;
-}
-
-.icon-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-weight: bold;
-  flex-shrink: 0;
-}
-
-.icon-store {
-  background-color: #38bdf8;
-  color: #0b1120;
-}
-
-.icon-ml {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  object-fit: contain;
-  background-color: #fff159;
-  padding: 1px;
-  flex-shrink: 0;
-}
-
-/* Caixa em Vermelho de Isenção Histórica */
-.disclaimer-box {
-  margin-top: 15px;
-  background-color: rgba(239, 68, 68, 0.1);
-  border-left: 4px solid #ef4444;
-  padding: 10px 14px;
-  border-radius: 0 6px 6px 0;
-}
-
-.disclaimer-box p {
-  color: #fca5a5 !important;
-  font-size: 0.82rem !important;
-  line-height: 1.4 !important;
-  margin: 0 !important;
-}
-
-/* Seção Sobre Mim */
-.about-section {
-  padding: 60px 0;
-  background-color: #0f172a;
-}
-
-.about-content {
-  max-width: 850px;
-  margin: 0 auto;
-  background-color: #1e293b;
-  padding: 35px;
-  border-radius: 12px;
-  border: 1px solid #334155;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-}
-
-.about-content p {
-  margin-bottom: 18px;
-  color: #cbd5e1;
-  font-size: 1rem;
-}
-
-.about-content strong {
-  color: #38bdf8;
-}
-
-/* Rodapé */
-footer {
-  padding: 50px 0;
-  background-color: #0b1120;
-  text-align: center;
-  border-top: 1px solid #1e293b;
-}
-
-footer p {
-  color: #94a3b8;
-  margin-bottom: 20px;
-}
-
-.links-contato {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
+</body>
+</html>
