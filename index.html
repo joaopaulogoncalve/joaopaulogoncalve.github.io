@@ -5,12 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>João Paulo da Silva Gonçalves | Portfólio Profissional</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Banner Principal com Fundo Ajustado para banner.jpg.jfif */
+    .hero {
+      position: relative;
+      background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.92)), url('banner.jpg.jfif');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+
+    .profile-img-container {
+      margin-bottom: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 4px solid #38bdf8;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+    }
+
+    /* Estilos do Carrossel */
+    .carousel-section {
+      padding: 30px 0 50px;
+      background-color: #0f172a;
+    }
+    .carousel-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+    .carousel-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      border: 1px solid #334155;
+    }
+    .carousel-slide {
+      display: none;
+    }
+    .carousel-slide img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+    .caption {
+      color: #f8fafc;
+      font-size: 0.95rem;
+      padding: 12px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(15, 23, 42, 0.85);
+    }
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+  </style>
 </head>
 <body>
 
   
   <header class="hero">
     <div class="container">
+      <div class="profile-img-container">
+        <img src="perfil.jpg" alt="João Paulo da Silva Gonçalves" class="profile-img">
+      </div>
       <h1>João Paulo da Silva Gonçalves</h1>
       <p class="subtitle">Gestão de E-commerce, Produção Gráfica & Impressão Industrial</p>
       <p class="description">
@@ -71,10 +146,10 @@
       <h2>Sobre Mim & Trajetória</h2>
       <div class="about-content">
         <p>
-          Com formação superior em **Gestão em Marketing e Vendas (Faculdade Fateg)** e especializações técnicas em Design Gráfico (Senac-GO), Produção Audiovisual (OZI) e Gestão Empresarial, atuo unindo visão de negócios e execução técnica de alta precisão.
+          Com formação superior em <strong>Gestão em Marketing e Vendas (Faculdade Fateg)</strong> e especializações técnicas em Design Gráfico (Senac-GO), Produção Audiovisual (OZI) e Gestão Empresarial, atuo unindo visão de negócios e execução técnica de alta precisão.
         </p>
         <p>
-          Lidero operações gráficas e digitais na **Neobag**, gerenciando desde a pré-impressão e manutenção de maquinários até a comercialização em e-commerce. Também trago experiência relevante na área pública como Assessor Parlamentar na **ALEGO**, desenvolvendo estratégias de comunicação e marketing digital.
+          Lidero operações gráficas e digitais na <strong>Neobag</strong>, gerenciando desde a pré-impressão e manutenção de maquinários até a comercialização em e-commerce. Também trago experiência relevante na área pública como Assessor Parlamentar na <strong>ALEGO</strong>, desenvolvendo estratégias de comunicação e marketing digital.
         </p>
       </div>
     </div>
