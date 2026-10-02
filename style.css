@@ -92,10 +92,10 @@ body {
   background-color: #0f172a;
 }
 
-.carousel-section h2, .projects h2, .about-section h2, footer h2 {
+.carousel-section h2, .projects h2, .about-section h2, .portfolio-section h2, .institutions-section h2, footer h2 {
   text-align: center;
   font-size: 1.8rem;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: #38bdf8;
 }
 
@@ -142,7 +142,7 @@ body {
   to {opacity: 1}
 }
 
-/* Grid de Especialidades Limpo e Sem Barras de Rolagem */
+/* Grid de Especialidades Limpo */
 .projects {
   padding: 60px 0;
   background-color: #0b1120;
@@ -202,7 +202,7 @@ body {
   width: 100%;
 }
 
-/* Details sem Scrollbar */
+/* Details Sem Scrollbar */
 details {
   margin-top: 15px;
   background-color: #0f172a;
@@ -251,8 +251,8 @@ details[open] summary::after {
   border-top: 1px solid #334155;
   padding-top: 12px;
   line-height: 1.5;
-  max-height: none; /* Elimina a limitação de altura */
-  overflow: visible;  /* Elimina totalmente as barras de rolagem */
+  max-height: none;
+  overflow: visible;
 }
 
 .details-content .section-subtitle {
@@ -299,7 +299,7 @@ details[open] summary::after {
   color: #cbd5e1;
 }
 
-/* Mini-Fotos e Badges dos Softwares */
+/* Badges e Mini-Fotos */
 .software-icons-grid, .tech-icons-row {
   display: flex;
   flex-wrap: wrap;
@@ -384,7 +384,6 @@ details[open] summary::after {
   flex-shrink: 0;
 }
 
-/* Caixa em Vermelho de Isenção Histórica */
 .disclaimer-box {
   margin-top: 12px;
   background-color: rgba(239, 68, 68, 0.1);
@@ -398,6 +397,131 @@ details[open] summary::after {
   font-size: 0.78rem !important;
   line-height: 1.35 !important;
   margin: 0 !important;
+}
+
+/* Seção do Portfólio de Peças Criativas */
+.portfolio-section {
+  padding: 60px 0;
+  background-color: #0f172a;
+}
+
+.section-desc {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 16px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  border-color: #ec4899;
+}
+
+.portfolio-img-placeholder {
+  width: 100%;
+  height: 160px;
+  background-color: #0f172a;
+  border: 1px dashed #38bdf8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #38bdf8;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.portfolio-card h4 {
+  color: #f8fafc;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.portfolio-card p {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+/* Seção Instituições & Totens/Logos */
+.institutions-section {
+  padding: 60px 0;
+  background-color: #0b1120;
+}
+
+.subsection-title {
+  color: #ec4899;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.brand-totems-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+.totem-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: border-color 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.totem-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-3px);
+}
+
+.totem-logo {
+  max-width: 120px;
+  max-height: 45px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.totem-text-logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #38bdf8;
+}
+
+.totem-card h4 {
+  color: #f8fafc;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.totem-card p {
+  color: #94a3b8;
+  font-size: 0.8rem;
 }
 
 /* Seção Sobre Mim */
